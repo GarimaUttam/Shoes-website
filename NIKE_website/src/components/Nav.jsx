@@ -3,7 +3,7 @@ import {hamburger} from "../assets/icons";
 import { navLinks } from "../constants";
 const Nav = () => {
   return (
-    <header className="padding-x pt-4 z-10 w-full pb-1">
+    <header className="padding-x pt-4 z-10 w-full">
       <nav className="flex justify-between items-center max-container">
          <a href="/"> 
         <img src="./headerLogo.png" alt="/" width={200} height={90}/>

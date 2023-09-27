@@ -11,17 +11,18 @@ export const navLinks = [
 
 export const shoes = [
     {
+        thumbnail: thumbnailShoe3,
+        bigShoe: bigShoe3,
+    },
+    {
         thumbnail: thumbnailShoe1,
         bigShoe: bigShoe1,
     },
     {
         thumbnail: thumbnailShoe2,
         bigShoe: bigShoe2,
-    },
-    {
-        thumbnail: thumbnailShoe3,
-        bigShoe: bigShoe3,
-    },
+    }
+    
 ];
 
 export const statistics = [
