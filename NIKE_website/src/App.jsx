@@ -8,6 +8,7 @@ import { Hero,
   Footer
 } from "./sections"; 
 import Nav from "./components/Nav";
+import PopularProductCard from "./components/PopularProductCard";
 
 const App = () => (
     <main className="relative">

@@ -23,7 +23,7 @@ const Hero = () => {
         <p className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">Discover stylish RunOn arrivals,quality comfort,and innovation for your active life</p>
         <Buttons label="Shop now"><i class="fa-solid fa-circle-arrow-right"></i></Buttons>
 
-        <div className="flex justify-start items-start flex-wrap w-full gap-16">
+        <div className="flex justify-start mt-12 items-start flex-wrap w-full gap-16">
             {statistics.map((stat) => (
               <div key={stat.label}>
                 <p className="text-4xl font-palanquin font-bold">{stat.value}</p>
